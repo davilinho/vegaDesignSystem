@@ -11,4 +11,6 @@ public struct AppColor {
     public static let background: Color = Color("background", bundle: Bundle.module)
     public static let primary: Color = Color("primary", bundle: Bundle.module)
     public static let secondary: Color = Color("secondary", bundle: Bundle.module)
+    public static let accent: Color = Color("accent", bundle: Bundle.module)
+    public static let disabled: Color = Color("disabled", bundle: Bundle.module)
 }
