@@ -20,7 +20,7 @@ let package = Package(
             resources: [
                 .process("Resources/Colors/Colors.xcassets"),
                 .process("Resources/Fonts/Nunito-VariableFont_wght.ttf"),
-                .process("Resources/Incons/Icons.xcassets")
+                .process("Resources/Assets/Icons.xcassets")
             ]),
         .testTarget(
             name: "vegaDesignSystemTests",
