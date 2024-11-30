@@ -18,7 +18,8 @@ let package = Package(
         .target(
             name: "vegaDesignSystem",
             resources: [
-                .process("Resources/Colors.xcassets")
+                .process("Resources/Colors/Colors.xcassets"),
+                .process("Resources/Fonts/Nunito-VariableFont_wght.ttf")
             ]),
         .testTarget(
             name: "vegaDesignSystemTests",
