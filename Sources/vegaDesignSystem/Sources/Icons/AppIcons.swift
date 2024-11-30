@@ -8,10 +8,10 @@
 import SwiftUI
 
 public struct AppIcons {
-    public static let location = Image("location", bundle: Bundle.main)
-    public static let marker = Image("marker", bundle: Bundle.main)
-    public static let parking = Image("parking", bundle: Bundle.main)
-    public static let pin = Image("pin", bundle: Bundle.main)
-    public static let share = Image("share", bundle: Bundle.main)
-    public static let track = Image("track", bundle: Bundle.main)
+    public static let location = Image("location")
+    public static let marker = Image("marker")
+    public static let parking = Image("parking")
+    public static let pin = Image("pin")
+    public static let share = Image("share")
+    public static let track = Image("track")
 }
